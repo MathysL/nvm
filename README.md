@@ -90,7 +90,13 @@ nvm is a version manager for [node.js](https://nodejs.org/en/), designed to be i
 
 ### Install & Update Script
 
-To **install** or **update** nvm, you should run the [install script][2]. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
+To **install** or **update** nvm, you should run the [install script][2]. To do that, you may either download and
+```sh
+git clone https://github.com/MathysL/nvm.git
+cd nvm
+install.sh 
+```
+ run the script manually, or use the following cURL or Wget command (to retreive from orginal creatix fork):
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
